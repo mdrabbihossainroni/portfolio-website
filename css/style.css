@@ -1,0 +1,658 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryfont: 'Josefin Sans', sans-serif;
+    --secondaryfont: 'Roboto', sans-serif;
+    --primarycolor: #353535;
+    --secondarycolor: black;
+}
+
+ul,ol{
+list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,span{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--primaryfont)
+}
+
+
+/* COMMON CSS END */
+
+/* NAV BAR START */
+#navbarSupportedContent ul li{
+    padding: 16px 22px;
+} 
+
+
+#navbarSupportedContent ul li a{
+    color: var(--primarycolor);
+font-size: 15px;
+font-weight: 500;
+line-height: 200%; 
+}
+
+#navbarSupportedContent ul li:hover a{
+    color: red;
+}
+
+.icon ul li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.icon ul li a {
+    color: var(--primarycolor);
+}
+
+.icon ul li:hover a {
+    color: red;
+}
+/* NAV BAR END */
+
+/* BANNER START */
+#banner .content{
+    padding: 100px 0px;
+}
+
+#banner .content h6{
+    color: var(--primarycolor);
+font-size: 24px;
+}
+    
+#banner .content span{
+    width: 32px;
+    height: 32px;
+color: #FFD233;
+margin-left: 38px;
+}
+
+#banner .content h3{
+    color: var(--primarycolor);
+font-family: var(--secondarycolor);
+font-size: 34px;
+margin-top: 15px;
+}
+
+#banner .content p{
+    color: var(--primarycolor);
+font-size: 20px;
+font-weight: 400;
+line-height: 180%; 
+padding: 25px 0px 35px 0px;
+}
+
+#banner .content a {
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+line-height: 180%; 
+background-color: #FFCC00;
+padding: 17px 80px 17px 45px;
+border-radius: 20px;
+}
+
+#banner .content a span{
+    width: 24px;
+    height: 24px;
+    color: yellow;
+}
+
+#banner .content h4{
+    color: var(--primarycolor);
+font-size: 22px;
+font-weight: 500;
+line-height: 180%; 
+display: block;
+margin-top: 20px;
+}
+
+#banner .content i{
+    width: 20px;
+    height: 20px;
+color: green;
+}
+
+
+#banner .image img{
+    width: 600px;
+    height: 500px;
+}
+/* BANNER END */
+
+/* ABOUT START */
+#about {
+  background-image: url(../images/Rectangle\ 49.png);
+  background-position: center;
+  background-repeat: no-repeat;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+#about .image img{
+    width: 550px;
+    height: 500px;
+}
+
+#about .content{
+    padding: 78px 0px 86px 0px;
+    text-align: center;
+}
+
+#about .content h2{
+    color:var(--primarycolor);
+font-family: PT Sans;
+font-size: 50px;
+font-weight: 700;
+}
+
+#about .content p{
+    color: var(--primarycolor);
+font-size: 20px;
+font-weight: 400;
+line-height: 190%; 
+margin-top: 26px;
+}
+
+#about .content a{
+    color: var(--primarycolor);
+font-size: 18px;
+font-weight: 500;
+line-height: 180%; 
+margin-top: 45px;
+border: 1px solid black;
+border-radius: 20px;
+padding: 15px 20px 15px 20px;
+display: inline-block;
+transition: 300ms;
+}
+
+#about .content a:hover {
+    background-color: rgba(22, 154, 230, 0.829);
+    color: black;
+}
+/* ABOUT END */
+
+/* CARD START */
+#card .cards {
+text-align: center;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+#card .cards .image img{
+    padding: 39px 0px 16px 0px;
+}
+
+
+#card .cards .content h2{
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 22px;
+font-weight: 600;
+line-height: 180%; 
+margin-bottom: 14px;
+}
+
+#card .cards .content p{
+    color: #7A7A7A;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 400;
+line-height: 190%; 
+}
+
+/* CARD END */
+
+/* BRANDING START */
+
+#brand{
+    background-image: url(../images/Rectangle\ 49.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+#brand .content {
+    text-align: center;
+    padding: 83px 0px 73px 0px;
+}
+
+#brand .content h2 {
+    color: #353535;
+    font-family:var(--secondaryfont);
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#brand .content p {
+    color: var(--primarycolor);
+font-size: 18px;
+font-weight: 400;
+line-height: 190%; 
+margin-bottom: 35px;
+}
+
+#brand .content a {
+    color: var(--primarycolor);
+font-size: 17px;
+font-weight: 500;
+line-height: 180%; 
+padding: 18px 38px;
+border: 1px solid black;
+border-radius: 20px;
+}
+
+#brand .content a:hover {
+    background-color: rgba(0, 255, 255, 0.363);
+}
+/* BRANDING END */
+
+/* WHAT DO I HELP START */
+
+#help {
+    padding: 154px 0px 100px 0px;
+}
+
+#help .image .cards{
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+margin-bottom: 24px;
+}
+
+#help .image .cards .img img {
+    margin-top: 10px;
+}
+
+#help .image .cards .text h2 {
+    color: var(--primarycolor);
+font-size: 18px;
+font-weight: 600;
+line-height: 180%; 
+margin-top: 17px;
+}
+
+#help .image .cards .text p {
+    color: var(--primarycolor);
+font-size: 12px;
+font-weight: 500;
+line-height: 180%; 
+margin-bottom: 21px;
+}
+
+#help .content h2 {
+    color: var(--primarycolor);
+text-align: right;
+font-family: var(--secondaryfont);
+font-size: 50px;
+font-weight: 700;
+}
+
+#help .content p {
+    color: var(--primarycolor);
+text-align: right;
+font-size: 20px;
+font-weight: 400;
+line-height: 190%; 
+padding: 0px 0px 0px 160px;
+margin-top: 26px;
+}
+
+#help .content h1 {
+    color: var(--primarycolor);
+text-align: right;
+font-size: 40px;
+font-weight: 700;
+}
+
+#help .content h1 span {
+    color: var(--primarycolor);
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 109px;  
+}
+
+#help .content h3 {
+    color: var(--primarycolor);
+font-size: 14px;
+font-weight: 500;
+line-height: 180%; 
+margin-left: 435px;
+}
+
+#help .content h3 span {
+    color: var(--primarycolor);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 180%; 
+    margin-left: 90px;
+}
+/* WHAT DO I HELP END */
+
+/* WORK EXPERIENCE START */
+
+#work .heading h2 {
+    color: var(--primarycolor);
+text-align: center;
+font-family: var(--secondaryfont);
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 90px;
+}
+
+#work .texts .text h2 {
+    color: var(--primarycolor);
+font-size: 24px;
+font-weight: 600;
+line-height: 180%; 
+margin-bottom: 16px;
+}
+
+#work .texts .text p {
+    color: #7A7A7A;
+font-size: 18px;
+font-weight: 500;
+line-height: 180%; 
+margin-bottom: 130px;
+}
+
+#work .contents .content h2 {
+    color: var(--primarycolor);
+font-size: 24px;
+font-weight: 600;
+line-height: 180%; 
+}
+
+#work .contents .content p {
+    color: #7A7A7A;
+font-size: 18px;
+font-weight: 400;
+line-height: 200.5%; 
+}
+/* WORK EXPERIENCE END */
+
+/* EXPERT AREAS START */
+#expert {
+    padding: 80px 0px 60px 0px;
+}
+
+
+#expert .content {
+    text-align: center;
+}
+
+
+#expert .content h2 {
+    color: var(--primarycolor);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#expert .content p {
+    color: #7A7A7A;
+font-size: 20px;
+font-weight: 400;
+line-height: 200%; 
+}
+
+#expert .content a {
+    color: var(--primarycolor);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%; 
+    padding: 16px 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 300ms;
+}
+
+#expert .content a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* EXPERT AREAS END */
+
+/* MY SERVICES START */
+#service {
+    background-image: url(../images/services.png);
+}
+
+#service .heading h2 {
+    color: var(--primarycolor);
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+margin-bottom: 13px;
+padding: 71px 0px 0px 0px;
+}
+
+#service .heading p {
+    color: #7A7A7A;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 180%; 
+padding: 0px 280px;
+margin-bottom: 73px;
+}
+
+#service .cards .text h2 {
+    color: var(--primarycolor);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 180%; 
+}
+
+#service .cards .text p {
+    color: #7A7A7A;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 180%; 
+}
+
+#service .cards .image{
+    margin-bottom: 20px;
+}
+
+#service .cards {
+    margin-bottom: 101px;
+}
+
+/* MY SERVICES END */
+
+/* FEEDBACK CLAIENT START */
+
+#feedback {
+    background-image: url(../images/claient.png);
+}
+
+#feedback .heading h2 {
+    color: var(--primarycolor);
+font-size: 40px;
+font-weight: 700;
+line-height: 135.4%; 
+margin-top: 93px;
+}
+
+#feedback .heading p {
+    color: #7A7A7A;
+font-size: 18px;
+font-weight: 400;
+line-height: 180%; 
+padding: 0px 500px 0px 0px;
+margin-bottom: 63px;
+}
+
+#feedback .cards .content {
+    margin-top: 140px;
+}
+
+#feedback .cards .content p {
+    color: #7A7A7A;
+font-size: 20px;
+font-weight: 400;
+line-height: 200%; 
+}
+
+#feedback .cards .content h2 {
+    color: var(--primarycolor);
+font-size: 24px;
+font-weight: 500;
+line-height: 200%; 
+}
+
+#feedback .cards .content h6 {
+    color: #7A7A7A;
+font-size: 16px;
+font-weight: 400;
+line-height: 200%; 
+}
+/* FEEDBACK CLAIENT END */
+
+/* FOOTER START */
+#footer .contact .icon a {
+    background-color: transparent;
+}
+
+
+
+#footer {
+    background-image: url(../images/footer.png);
+  margin-top: 152px;
+}
+
+#footer .image img {
+    margin-top: 75px;
+}
+
+#footer .image h3 {
+    color: #BBB9B9;
+text-align: justify;
+font-size: 18px;
+font-weight: 400;
+line-height: 180%; 
+margin-top: 182px;
+}
+
+#footer .image a {
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+line-height: 180%; 
+}
+
+#footer .content h2 {
+    color: #FFF;
+font-size: 36px;
+font-weight: 700;
+line-height: 200%; 
+margin-top: 70px;
+}
+
+#footer .content p {
+    color: #BBB9B9;
+text-align: justify;
+font-size: 16px;
+font-weight: 400;
+line-height: 180%; 
+padding: 0px 200px 0px 0px;
+}
+
+#footer .content h3 {
+    color: #BBB9B9;
+text-align: justify;
+font-size: 18px;
+font-weight: 400;
+line-height: 180%; 
+margin-top: 50px;
+}
+
+#footer .content a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 180%; 
+}
+
+#footer .contact a {
+    color: white;
+font-size: 18px;
+font-weight: 600;
+line-height: 180%; 
+padding: 16px 66px 16px 32px;
+border-radius: 16px;
+background: #FC0;
+display: block;
+margin-top: 114px;
+}
+
+#footer .contact span {
+    color: green;
+    margin-left: 11px;
+}
+
+
+/* FOOTER END */
+
+/* ABOUT ME START FOR ABOUT PAGE */
+
+#abouts {
+    background-image: url(../images/Rectangle\ 49.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  }
+  
+  #abouts .image img{
+      width: 550px;
+      height: 500px;
+  }
+  
+  #abouts .content{
+      padding: 78px 0px 86px 0px;
+      text-align: center;
+  }
+  
+  #abouts .content h2{
+      color:var(--primarycolor);
+  font-family: PT Sans;
+  font-size: 50px;
+  font-weight: 700;
+  }
+  
+  #abouts .content p{
+      color: var(--primarycolor);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 190%; 
+  margin-top: 26px;
+  margin-bottom: 100px;
+  }
+
+  /* ABOUT ME END FOR ABOUT PAGE */
